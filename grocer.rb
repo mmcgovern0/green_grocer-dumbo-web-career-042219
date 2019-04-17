@@ -11,7 +11,7 @@ cart =  [
   {"BEETS" => {:price => 2.50, :clearance => false}},
   {"SOY MILK" => {:price => 4.50, :clearance => true}}
     ]
-
+coupons = 
 
 def consolidate_cart(cart)
   organized_cart = {}

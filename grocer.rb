@@ -1,4 +1,7 @@
 require 'pry'
+cart = 
+
+
 def consolidate_cart(cart)
   organized_cart = {}
   count = 0

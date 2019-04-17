@@ -16,7 +16,8 @@ def apply_coupons(cart, coupons)
   item_name_with_coupon = {}
   coupons.each do |key, value|
     puts key
-    cart.each do
+    cart.each do |food, description|
+      
 end
 
 def apply_clearance(cart: [])

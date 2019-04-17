@@ -50,8 +50,8 @@ def apply_coupons(cart, coupons)
 end
 
 
-def apply_clearance(cart: [])
-  # code here
+def apply_clearance(cart)
+  cart.each do 
 end
 
 def checkout(cart: [], coupons: [])

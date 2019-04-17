@@ -10,8 +10,13 @@ cart =  [
   {"PEANUTBUTTER" => {:price => 3.00, :clearance => true}},
   {"BEETS" => {:price => 2.50, :clearance => false}},
   {"SOY MILK" => {:price => 4.50, :clearance => true}}
-    ]
-coupons = 
+]
+
+coupons = [
+  {:item => "AVOCADO", :num => 2, :cost => 5.00},
+  {:item => "BEER", :num => 2, :cost => 20.00},
+  {:item => "CHEESE", :num => 3, :cost => 15.00}
+]
 
 def consolidate_cart(cart)
   organized_cart = {}
@@ -27,12 +32,7 @@ def consolidate_cart(cart)
 end
 
 def apply_coupons(cart, coupons)
-  item_name_with_coupon = {}
-  coupons.each do |key, value|
-    puts key
-    cart.each do |food, description|
-    end
-  end
+  
 end
 
 

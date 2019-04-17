@@ -13,7 +13,8 @@ def consolidate_cart(cart)
 end
 
 def apply_coupons(cart, coupons)
-  
+  item_name_with_coupon = {}
+  coupons.each do ||
 end
 
 def apply_clearance(cart: [])

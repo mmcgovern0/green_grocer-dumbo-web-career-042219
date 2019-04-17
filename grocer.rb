@@ -17,8 +17,11 @@ def apply_coupons(cart, coupons)
   coupons.each do |key, value|
     puts key
     cart.each do |food, description|
-      
+    end
+  end
 end
+
+apply_coupons(consolidate_cart())
 
 def apply_clearance(cart: [])
   # code here

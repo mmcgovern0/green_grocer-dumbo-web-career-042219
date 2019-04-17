@@ -41,7 +41,7 @@ def apply_coupons(cart, coupons)
         couponed_items[new_name] = {
           price: coupon_hash[:cost],
           count: 1,
-          clearance: item_hash[:clearance]
+          clearance: food_hash[:clearance]
         }
       end
     end
